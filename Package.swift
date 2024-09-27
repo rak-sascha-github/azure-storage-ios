@@ -12,12 +12,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Azure Storage Client Library",
+            name: "AZSClient",
             dependencies: [],
             path: "Lib/Azure Storage Client Library/Azure Storage Client Library"),
-        .testTarget(
-            name: "ReachabilityTests",
-            dependencies: ["Azure Storage Client Library"],
-            path: "Lib/Azure Storage Client Library/Azure Storage Client LibraryTests"),
     ]
 )
